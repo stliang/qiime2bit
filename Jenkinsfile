@@ -8,4 +8,7 @@ pipeline {
     }
 
   }
+  environment {
+    QIIME2_RELEASE = '0.0.1'
+  }
 }
