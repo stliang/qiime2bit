@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+    QIIME2_RELEASE = "0.0.1"
+  }
   stages {
     stage('Build Base Image') {
       steps {
